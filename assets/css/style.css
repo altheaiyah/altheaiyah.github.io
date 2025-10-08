@@ -1,0 +1,52 @@
+body {
+    font-family: 'Inter';
+}
+.h1,
+.h2 {
+    font-family: 'Rubik';
+    font-weight: bold;
+}
+/*navigation bar section*/
+.nav-link {
+    color: black;
+}
+.nav-link:hover {
+    color: darkgrey;
+}
+.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.account-link {
+    color: #212529;
+    text-decoration: none;
+}
+/*containers*/
+.nav,
+.landing-page-content,
+.about-container,
+.skill-card,
+.cv-container,
+.cert-container,
+.portfolio-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(219, 219, 219);
+}
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content:start; 
+    gap:2;
+}
+.progress-bar {
+    width:100%; 
+    height: 20px; 
+    border: 1px solid black;
+    background-color: rgb(233, 235, 238);
+}
+.progress-body {
+    height: 18px; 
+    font-size: 12px;
+    color: white;
+    background-color: black; 
+}
