@@ -18,11 +18,7 @@ h3 {
 }
 /*containers*/
 .navbar,
-.landing-page-content,
-.about-container,
-.cv-container,
-.cert-container,
-.portfolio-container {
+.about-container {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 1px solid rgb(219, 219, 219);
 }

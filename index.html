@@ -10,7 +10,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -24,45 +23,44 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavs">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto text-center">
           <li class="nav-item"><a class="nav-link" href="#about-segment">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#activities-segment">Activities</a></li>
-          <li class="nav-item"><a class="nav-link" href="#cert-segment">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section id="profile" class="container my-5 py-5">
-    <div class="rounded-5 p-4 landing-page-content">
-      <div class="row align-items-center justify-content-center text-center text-md-start">
-        <div class="col-md-6 col-xl-8 mb-4 mb-md-0">
-          <h1 class="display-4 fw-bold">Althea Mishka Alvarez</h1>
-          <div class="pb-4 text-secondary"><small>3rd-year BSIT</small></div>
-          <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mb-2">
-            <i class="fa-solid fa-location-dot"></i><span>Batangas, Philippines</span>
-          </div>
-          <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mb-2">
-            <i class="fa-solid fa-envelope"></i>
-            <a href="mailto:altheamishkaalvarez@gmail.com" class="text-dark text-decoration-none" >altheamishkaalvarez@gmail.com</a>
-          </div>
-          <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-3">
-            <a href="https://www.instagram.com/iyahalvarez" class="text-dark text-decoration-none">
-              <i class="fa-brands fa-instagram fa-lg"></i>
-            </a>
-            <a href="https://github.com/altheaiyah" class="text-dark text-decoration-none">
-              <i class="fa-brands fa-square-github fa-lg"></i>
-            </a>
-          </div>
+  <div class="container mt-5 p-4" id="profile">
+    <div class="row align-items-center justify-content-center text-center text-md-start">
+      <div class="col-md-6 col-xl-8 mb-4 mb-md-0">
+        <h1 class="display-4 fw-bold">Althea Mishka Alvarez</h1>
+        <div class="pb-4 text-secondary"><small>3rd-year BSIT</small></div>
+        <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mb-2">
+          <i class="fa-solid fa-location-dot"></i><span>Batangas, Philippines</span>
         </div>
-        <div class="col-md-6 col-xl-4 text-center">
-          <img src="assets/images/profile.jpg" class="img-fluid border rounded-4 image" alt="Althea Mishka Alvarez">
+        <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mb-2">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:altheamishkaalvarez@gmail.com"
+            class="text-dark text-decoration-none">altheamishkaalvarez@gmail.com</a>
+        </div>
+        <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-3">
+          <a class="text-dark text-decoration-none" href="https://www.instagram.com/iyahalvarez">
+            <i class="fa-brands fa-instagram fa-lg"></i>
+          </a>
+          <a class="text-dark text-decoration-none" href="https://github.com/altheaiyah" >
+            <i class="fa-brands fa-square-github fa-lg"></i>
+          </a>
         </div>
       </div>
+      <div class="col-md-6 col-xl-4 text-center">
+        <img class="img-fluid border rounded-4 image shadow" src="assets/images/profile.jpg" alt="Althea Mishka Alvarez">
+      </div>
     </div>
-  </section>
+  </div>
 
-  <section id="about-segment" class="container my-5 py-5">
+  <div class="container my-5 py-5" id="about-segment">
     <h3 class="display-6 text-center mb-2">About</h3>
     <div class="rounded-5 p-4 about-container">
       <p>
@@ -85,26 +83,35 @@
               <div class="card-header bg-transparent fw-semibold border-0 pt-4 px-4">Design Tools</div>
               <div class="card-body text-center">
                 <div class="d-flex justify-content-center align-items-center flex-wrap gap-4">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="Figma" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" height="40" alt="Photoshop" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" height="40" alt="Illustrator" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="40" alt="Canva" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" height="40" alt="Blender" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40"
+                    alt="Figma" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
+                    height="40" alt="Photoshop" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg"
+                    height="40" alt="Illustrator" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="40"
+                    alt="Canva" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" height="40"
+                    alt="Blender" />
                 </div>
               </div>
             </div>
           </div>
-
           <div class="col-12 col-lg-6">
             <div class="card rounded-4 skill-card h-100">
               <div class="card-header bg-transparent fw-semibold border-0 pt-4 px-4">Languages and Frameworks</div>
               <div class="card-body text-center">
                 <div class="d-flex justify-content-center align-items-center flex-wrap gap-4">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="Java" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40"
+                    alt="HTML5" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40"
+                    alt="CSS3" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    height="40" alt="JavaScript" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40"
+                    alt="Python" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40"
+                    alt="Java" />
                 </div>
               </div>
             </div>
@@ -112,94 +119,75 @@
         </div>
       </div>
     </div>
-  </section>
-
-  <section id="activities-segment" class="container my-5 py-5">
-    <h3 class="display-6 text-center mb-2">Activities</h3>
-    <div class="rounded-5 p-4 portfolio-container">
-      <div class="row gx-4 gy-4 justify-content-center">
-        <div class="col-sm-6 col-lg-4">
-          <div class="card h-100 rounded-4">
-            <img src="assets/images/img1.png" class="card-img-top rounded-top-4" alt="AirPods Max Landing Page">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">AirPods Max</h5>
-              <small class="text-secondary fw-semibold">Hardware Device Showcase</small>
-              <p class="card-text text-justify">
-                A showcase of the Apple AirPods Max, emphasizing its innovative design, advanced features, and sleek aesthetics. 
-              </p>
-              <div class="justify-content-space-evenly">
-                <a href="https://altheaiyah.github.io/Apple-AirPods-Max/" class="btn btn-dark">View</a>
-                <a href="https://github.com/altheaiyah/Apple-AirPods-Max" class="btn btn-secondary">Repository</a>
-              </div> 
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4">
-          <div class="card h-100 rounded-4">
-            <img src="assets/images/img2.png" class="card-img-top rounded-top-4" alt="VayanBatanes Landing Page">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">VayanBatanes</h5>
-              <small class="text-secondary fw-semibold">Place Showcase</small>
-              <p class="card-text text-justify">
-                This project highlights Batanes, featuring the three main islands: Batan, Sabtang, and Itbayat, showcasing their scenic landscapes 
-                and Ivatan heritage.
-              </p>
-              <div class="justify-content-space-evenly">
-                <a href=" https://altheaiyah.github.io/Philippines-Batanes/" class="btn btn-dark">View</a>
-                <a href="https://github.com/altheaiyah/Philippines-Batanes" class="btn btn-secondary">Repository</a>
-              </div> 
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4">
-          <div class="card h-100 rounded-4">
-            <img src="assets/images/img3-1.png" class="card-img-top rounded-top-4" alt="BTS Gallery">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">This is BTS</h5>
-              <small class="text-secondary fw-semibold">Gallery</small>
-              <p class="card-text text-justify">
-                This is a BTS gallery website showcasing member profiles and albums, incorporating interactive functionality to enhance user engagement.
-              </p>
-              <div class="justify-content-space-evenly">
-                <a href="https://altheaiyah.github.io/Gallery/" class="btn btn-dark">View</a>
-                <a href="https://github.com/altheaiyah/Gallery" class="btn btn-secondary">Repository</a>
-              </div> 
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="cert-segment" class="container my-5 py-5">
-    <h3 class="display-6 text-center mb-2">Certificates</h3>
-    <div class="rounded-5 p-4 cert-container">
-      <div class="row gy-4 justify-content-center">
-        <div class="col-12 col-md-8 col-lg-6">
-          <div class="card rounded-4 p-4 h-100">
-            <div class="card-cert-title mb-3">
-              <h5 class="fw-bold">Certificate of Recognition - Networking Basics</h5>
-              <p class="text-secondary fw-bold mb-0">Cisco Networking Academy, 2025</p>
-            </div>
-            <div class="card-body p-0 text-justify">
-              <p>
-                Received a Certificate of Completion from Cisco Networking Academy for successfully
-                completing the free online course Networking Basics.
-              </p>
-              <img src="assets/images/networking-basics-cert.jpg" class="img-fluid border rounded-3" alt="Certificate of Recognition - Networking Basics">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer class="bg-white border-top py-3 rounded-5">
-  <div class="container text-center fw-semibold">
-    <p class="small mb-0">
-       © 2025 Althea Alvarez | All rights reserved.
-    </p>
   </div>
-</footer>
+
+  <div class="container my-5">
+    <h3 class="display-6 text-center mb-3" id="activities">Activities</h3>
+    <div class="row justify-content-center" id="activityArea"></div>
+  </div>
+
+  <div class="container my-5">
+    <h3 class="display-6 text-center mb-3" id="certificates">Certificates</h3>
+    <div class="row justify-content-center" id="certArea"></div>
+  </div>
+
+  <div class="bg-white border-top py-3 rounded-5">
+    <div class="container text-center fw-semibold">
+      <p class="small mb-0">
+        © 2025 Althea Alvarez | All rights reserved.
+      </p>
+    </div>
+  </div>
+
+  <script src="activities.js"></script>
+  <script>
+    var activityArea = document.getElementById("activityArea");
+    activityArea.innerHTML = "";
+
+    for (let i = 0; i < activities.length; i++) {
+      activityArea.innerHTML += `
+    <div class="col-12 col-md-4 col-lg-3 mb-3">
+      <div class="card h-100 rounded-4 shadow">
+        <img class="card-img-top rounded-top-4"
+             src="${activities[i].image}" alt="${activities[i].title}">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">${activities[i].title}</h5>
+          <small class="text-secondary fw-semibold">${activities[i].subTitle}</small>
+          <p class="card-text mt-2">${activities[i].description}</p>
+          <div class="d-flex justify-content-start mt-3 gap-2">
+            <a href="${activities[i].viewLink}" class="btn btn-dark btn-sm">View</a>
+            <a href="${activities[i].repoLink}" class="btn btn-secondary btn-sm">Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+    }
+  </script>
+
+  <script src="certificates.js"></script>
+  <script>
+    var certArea = document.getElementById("certArea");
+    certArea.innerHTML = "";
+
+    for (let i = 0; i < certificates.length; i++) {
+      certArea.innerHTML += `
+      <div class="col-12 col-md-8 col-lg-6">
+        <div class="card h-100 rounded-4 shadow p-4">
+          <div class="card-cert-title mb-3">
+            <h5 class="fw-bold">${certificates[i].title}</h5>
+            <p class="text-secondary fw-bold mb-0">${certificates[i].subTitle}</p>
+          </div>
+          <div class="card-body p-0 text-justify">
+            <p>${certificates[i].description}</p>
+            <img class="img-fluid border rounded-3" src="${certificates[i].image}" alt="${certificates[i].title}">
+          </div>
+        </div>
+      </div>
+      `;
+    }
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
